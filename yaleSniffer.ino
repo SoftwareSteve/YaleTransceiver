@@ -533,7 +533,6 @@ void loop()
   /*
    * Hanlde serial message from the PC for Tx on the air
    * format is 10 hex digits followed by NL
-   * Test message: 53b44eeffe
    */
   if( Serial.available() > 0 )
   {
